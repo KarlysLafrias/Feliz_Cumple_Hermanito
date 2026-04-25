@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feliz Cumplea&#241;os</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="start-screen" id="startScreen">
+<video class="start-video" id="startVideo" autoplay muted loop playsinline preload="auto">
+<source src="videoplayback.mp4" type="video/mp4">
+</video>
+<div class="start-overlay"></div>
+
+<div class="start-content">
+<h1>&#x1F382; Feliz Cumplea&#241;os Rolladora &#x1F382;</h1>
+<p>De la changa de tu hermana para ti</p>
+
+<button onclick="start()">START</button>
+</div>
+
+</div>
+
+<canvas id="confetti"></canvas>
+<audio id="bgMusic" preload="auto">
+<source src="Alphaville%20-%20Forever%20Young%20(Lyrics).mp3" type="audio/mpeg">
+</audio>
+
+<div class="scene" id="scene">
+
+<div class="envelope-stage">
+
+<div class="photo-card photo-top-left">
+<img src="FotosRoyo/foto1.jpeg" alt="Recuerdo 1">
+</div>
+
+<div class="photo-card photo-top-right">
+<img src="FotosRoyo/foto2.jpeg" alt="Recuerdo 2">
+</div>
+
+<div class="envelope" id="envelope" onclick="openEnvelope()">
+
+<div class="top"></div>
+
+<div class="letter-window">
+<div class="letter">
+
+<h2>Para mi hermanito &#x1F48C;</h2>
+
+<p>
+Hola Hermano Royo, ten un feliz cumplea&#241;os. Quiero que sepas que te quiero much&#237;simo, eres alguien a quien admiro much&#237;simo, me siento muy afortunada y agradecida de poder decir que una gran persona como t&#250; es mi hermano mayor. Desde peque&#241;a siempre te vi con mucha admiraci&#243;n y respeto, al igual que como mi compa&#241;ero de vida. Te agradezco mucho por todo lo que has hecho por m&#237;. Quiero que le eches muchas ganas a la vida y que sepas que siempre buscar&#233; la forma de poder ser un apoyo para ti si alg&#250;n d&#237;a lo llegas a necesitar. S&#233; feliz y disfruta todo como t&#250; lo sabes hacer, felicidades mi gran compa&#241;ero de infancia y vida. &#x1F973;&#x2728;
+</p>
+
+</div>
+</div>
+
+</div>
+
+<div class="photo-card photo-bottom-left">
+<img src="FotosRoyo/foto3.jpeg" alt="Recuerdo 3">
+</div>
+
+<div class="photo-card photo-bottom-right">
+<img src="FotosRoyo/foto4.jpeg" alt="Recuerdo 4">
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
